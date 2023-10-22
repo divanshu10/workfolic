@@ -17,6 +17,8 @@ function validate(){
           document.getElementById('first-name-valid').style.display = 'none'
           error = true
       }
+      console.log("Name:", firstName);
+    
 //  email condition
 
 if (
@@ -32,6 +34,7 @@ document.getElementById("email-invalid").style.display = "block";
 document.getElementById("email-valid").style.display = "none";
   error = true
 }
+console.log("Email:", email);
   // mobile number
 
    // isNaN = it checks output is number or Not a number
@@ -54,6 +57,7 @@ document.getElementById("email-valid").style.display = "none";
     document.getElementById("mobileNumber-valid").style.display = "none";
     error = true;
   }
+  console.log("mobileNumber:", mobilenumber );
 
   // country
   if (country != "None") {
@@ -64,6 +68,7 @@ document.getElementById("email-valid").style.display = "none";
       document.getElementById("country-valid").style.display = "none";
       error = true;
     }
+    console.log("country:", country)
 
   //  industry 
   if (industry != "None") {
@@ -74,6 +79,7 @@ document.getElementById("email-valid").style.display = "none";
       document.getElementById("industry-valid").style.display = "none";
       error = true;
     }
+    console.log("industry:", industry)
 
   //  t and c 
   if(tnC) {
