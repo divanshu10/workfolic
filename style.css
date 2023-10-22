@@ -1,0 +1,19 @@
+body{
+ background: linear-gradient(to right, hsl(0, 100%, 97%), #def8cb);
+ box-sizing: border-box;
+
+}
+.container{
+    background-color: rgb(37, 37, 37);
+       
+}
+h3{
+    justify-content: center;
+    text-align: center;
+   
+}
+.fa-circle{
+    margin-left: 40%;
+}
+
+
